@@ -1,18 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int base, height;
-    float answer;
-    printf("Base: ");
+    char option;
 
-    scanf("%d", &base);
-    printf("Height: ");
-    scanf("%d", &height);
 
-    answer =  (base * 4)  + height;
-    
+    printf("Welcome to our building!\n\n");
 
-    printf("The answer %.2f sum", answer);
+    printf("A. Use Elevator | B. Statistics | C. Elevators inspection | Q. Quit\n");
+    printf("Enter option: ");
+    scanf("%f", &option);
 
     return 0;
 
